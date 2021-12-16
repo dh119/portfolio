@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Lee Dahyeong Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="sub01.html">Identity</a></li>
+            <li><a href="sub02.html">Package</a></li>
+            <li>Editorial</li>
+            <li><a href="sub04.html">Motion</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="menutit s3"></div>
+
+      <div class="ed_top">
+        <img src="img/03_01_w1.png" class="ed_w1 scale-up-ver-bottom">
+      </div>
+
+      <div class="ed_m1">
+        <img src="img/03_01_w2.png" class="ed_w1_2" data-aos="fade-right">
+        <img src="img/03_01_txt.png" class="ed_txt" data-aos="fade-left">
+      </div>
+
+      <div class="ed_m2">
+        <div class="ed_w2_wrap">
+          <img src="img/03_02_txt.png" class="ed_txt2" data-aos="fade-up-left">
+        </div>
+        <img src="img/03_02_w.png" class="ed_w2" data-aos="fade-up-left">
+      </div>
+
+      <div class="ed_le1">
+        <img src="img/03_04_txt.png" class="le1" data-aos="fade-right">
+      </div>
+
+      <div class="ed_le2">
+        <img src="img/03_05_txt.png" class="le2" data-aos="fade-left">
+      </div>
+
+      <div class="ed_bot">
+        <img src="img/03_03_txt.png" class="ed_txt3" data-aos="fade-up-right">
+        <img src="img/03_03_w.png" class="ed_w1_3" data-aos="fade-up-left">
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/footerlogo.png"></span>
+        <span class="footer_txt">Copyright 2021 Lee Dahyeong. All Rights Reserved.</span>
+      </div>
+    </footer>
+
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    <!--AOS 스트립트 적용 부문 끝-->
+
+    <!--특정위치로 쩜프해서 이동 시작 : 마지막 숫자를 조절하면 속도조절이 됩니다.-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+        function fnMove(seq){
+            var offset = $("#anchor" + seq).offset();
+            $('html, body').animate({scrollTop : offset.top},500);
+        }
+    </script>
+  </body>
+</html>

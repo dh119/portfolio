@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Lee Dahyeong Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="sub01.html">Identity</a></li>
+            <li><a href="sub02.html">Package</a></li>
+            <li><a href="sub03.html">Editorial</a></li>
+            <li>Motion</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="menutit s4"></div>
+
+      <div class="m_work_wrap">
+
+        <div class="com" data-aos="zoom-in-up">
+          <img src="img/04_com.png">
+        </div>
+
+        <div class="m_tit">
+          <img src="img/04_wtit.png" data-aos="fade-up-left">
+        </div>
+        <div class="txt04" data-aos="fade-up-left">
+          <span class="m_txt">
+            장기적인 코로나 사태로 인해 감염자는 물론 비감염자도 경제적, 정신적인 피해를 받고 있다.<br>
+            코로나 블루의 심각성과 특히 청년층에 집중된 이유를 통계와 인터뷰 자료를 시각화하여 표현했다.<br>
+            끝으로는 코로나 블루를 극복하고 사회 재참여에 도움을 주는 해결방안을 알렸다.
+          </span>
+        </div>
+
+        <div class="m_sk" data-aos="fade-up">
+          <img src="img/04_sk.png">
+        </div>
+
+        <div class="m_fin"></div>
+
+        <div class="m_video" data-aos="fade-up"  data-aos-duration="1000">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/crPRw0xK2u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/footerlogo.png"></span>
+        <span class="footer_txt">Copyright 2021 Lee Dahyeong. All Rights Reserved.</span>
+      </div>
+    </footer>
+
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    <!--AOS 스트립트 적용 부문 끝-->
+
+    <!--특정위치로 쩜프해서 이동 시작 : 마지막 숫자를 조절하면 속도조절이 됩니다.-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+        function fnMove(seq){
+            var offset = $("#anchor" + seq).offset();
+            $('html, body').animate({scrollTop : offset.top},500);
+        }
+    </script>
+  </body>
+</html>
