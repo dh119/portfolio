@@ -43,7 +43,7 @@ section > .middle > .mid_wrap > .mid_edu {margin:auto; width:590px; height:280px
 section > .middle > .mid_wrap > .mid_aw {margin:auto; width:590px; height:140px; padding-top:8.8rem;}
 .aw_t{padding-top:12px; float:left; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size:2rem; color:#808080; line-height:2.4;}
 
-section > .middle > .mid_wrap > .mid_sk {margin:auto; width:592px; height:320px; background-color: red;padding-top:8.8rem;}
+section > .middle > .mid_wrap > .mid_sk {margin:auto; width:592px; height:320px; padding-top:8.8rem;}
 .sk_img{width:592px; height:158px; padding-top:26px;}
 
 section > .middle > .mid_wrap > .pp_tit {text-align:center; margin:auto; margin-top:180px; font-family: 'Jost', sans-serif; font-weight:700; font-size:5rem; color:#7777ED; line-height:2.4;}
@@ -98,9 +98,10 @@ section > .middle > .mid_wrap > .bottom {margin:auto; margin-top:10px; width:110
   transition: opacity 0.2s linear;}
 .box6_9:hover .c_c {display: block;  opacity: 1;}
 
-.box7 {width:1100px;height:650px; margin-bottom:56px;}
+.box7 {margin-bottom:56px;}
 .box7_10 {position: relative;}
-.logo_c5 {position: absolute; top: 0px; left: 0px;  opacity: 0;
+.logo_b5 {width:1100px;height:650px;}
+.logo_c5 {width:1100px;height:650px;position: absolute; top: 0px; left: 0px;  opacity: 0;
   transition: opacity 0.2s linear;}
 .box7_10:hover .logo_c5 {display: block;  opacity: 1;}
 
