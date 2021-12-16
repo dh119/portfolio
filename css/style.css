@@ -43,8 +43,8 @@ section > .middle > .mid_wrap > .mid_edu {margin:auto; width:590px; height:280px
 section > .middle > .mid_wrap > .mid_aw {margin:auto; width:590px; height:140px; padding-top:8.8rem;}
 .aw_t{padding-top:12px; float:left; font-family: 'Noto Sans KR', sans-serif; font-weight:400; font-size:2rem; color:#808080; line-height:2.4;}
 
-section > .middle > .mid_wrap > .mid_sk {margin:auto; width:590px; height:320px; padding-top:8.8rem;}
-.sk_img{width:590px; height:158px; padding-top:26px;}
+section > .middle > .mid_wrap > .mid_sk {margin:auto; width:592px; height:320px; background-color: red;padding-top:8.8rem;}
+.sk_img{width:592px; height:158px; padding-top:26px;}
 
 section > .middle > .mid_wrap > .pp_tit {text-align:center; margin:auto; margin-top:180px; font-family: 'Jost', sans-serif; font-weight:700; font-size:5rem; color:#7777ED; line-height:2.4;}
 
