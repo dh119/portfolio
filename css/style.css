@@ -98,7 +98,7 @@ section > .middle > .mid_wrap > .bottom {margin:auto; margin-top:10px; width:110
   transition: opacity 0.2s linear;}
 .box6_9:hover .c_c {display: block;  opacity: 1;}
 
-.box7 {margin-bottom:56px;}
+.box7 {width:1100px;height:650px; margin-bottom:56px;}
 .box7_10 {position: relative;}
 .logo_c5 {position: absolute; top: 0px; left: 0px;  opacity: 0;
   transition: opacity 0.2s linear;}
